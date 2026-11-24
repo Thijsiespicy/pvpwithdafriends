@@ -31,7 +31,7 @@ var Counter: PackedScene = preload("res://addons/godot_super-wakatime/counter.ts
 var system_platform: String = Utils.set_platform()[0]
 var system_architecture: String = Utils.set_platform()[1]
 
-var debug: bool = false
+var debug: bool = true
 
 # parity with kate-wakatime
 const LOG_INTERVAL: int = 120000

@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://ddxtuk3qd72kk"]
+
+[node name="Main" type="Node3D" unique_id=2004276753]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1419481467]
+transform = Transform3D(1, 0, 0, 0, 0.099999964, 0, 0, 0, 1, -1.5, 0, 0.5)
+use_collision = true
+size = Vector3(10, 1, 8)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=745976543]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.42046762, 0.85578954, 0.07643515)
+size = Vector3(0.099487305, 1.84375, 2.885254)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGBox3D2" unique_id=156628522]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45, -0.3, -5.9604645e-08)
+size = Vector3(2.9, 1.6, 1.6)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGBox3D2/CSGBox3D" unique_id=1106233272]
+transform = Transform3D(-0.017476827, 1.0071433, 0, -1.6998732, -0.010354695, 0, 0, 0, 1, 0.15074837, -0.3159838, 0.02356492)
+operation = 2
+height = 3.5249999
+sides = 64
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="CSGBox3D2" unique_id=30166726]
+transform = Transform3D(-0.017476827, 1.0071433, 0, -1.6998732, -0.010354695, 0, 0, 0, 1, -1.4503232, -0.6144306, 0.02356486)
+operation = 2
+height = 3.825
+sides = 64
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=1861793822]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3795323, 0.85578954, 0.07643515)
+size = Vector3(0.099487305, 1.84375, 2.885254)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1829960019]
+transform = Transform3D(2.9802322e-08, 0, -1, 0, 1, 0, 1, 0, 2.9802322e-08, 0.97953236, 0.85578954, -1.3235649)
+size = Vector3(0.099487305, 1.84375, 2.885254)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=16114452]
+transform = Transform3D(2.9802322e-08, 0, -1, 0, 1, 0, 1, 0, 2.9802322e-08, 0.97953236, 0.85578954, 1.4764351)
+size = Vector3(0.099487305, 1.84375, 2.885254)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=210639943]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3, 0, 0)
+radius = 0.2
